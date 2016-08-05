@@ -1,0 +1,20 @@
+header{
+	background-color: yellow;
+
+}
+
+
+.sfooter{
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
