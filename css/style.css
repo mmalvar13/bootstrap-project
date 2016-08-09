@@ -1,8 +1,41 @@
 header{
 	background-color: yellow;
+}
+
+
+.col-md-12{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	text-align: center;
+	height: 20rem;
+	padding-top: 5rem;
+	border: 2px solid lightseagreen;
+}
+
+.row{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.col-md-2{
+	margin-top:1rem;
+}
+.col-md-3{
+	height:15rem;
+	border: 2px solid lightseagreen;
 
 }
 
+.col-md-8{
+	height: 15rem;
+	border: 2px solid lightseagreen;
+}
+.buttoning{
+	background: linear-gradient(rgba(255, 0, 191,1),rgba(255, 204, 242,1));
+	border: 2px solid black;
+	border-radius:2rem;
+
+}
 
 .sfooter{
 	display:flex;
@@ -18,3 +51,20 @@ header{
 /*corrects IE min-height bug*/
 html { display: flex;}
 body { width: 100%;}
+
+
+.nav navbar-nav navbar-right{
+
+}
+
+.container.other{
+	background-color:yellow;
+
+
+}
+
+.col-md-2.third{
+	border: 2px solid green;
+	height:20rem;
+	width:20rem;
+}
